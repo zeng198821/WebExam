@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="3.0"
+         xmlns="http://java.sun.com/xml/ns/javaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd">
+    <context-param>
+        <param-name>contextConfigLocation</param-name>
+        <param-value>/WEB-INF/applicationContext.xml</param-value>
+    </context-param>
+    <filter>
+        <filter-name>encoding</filter-name>
+        <filter-class>org.springframework.web.filter.CharacterEncodingFilter</filter-class>
+        <init-param>
+            <param-name>encoding</param-name>
+            <param-value>UTF-8</param-value>
+        </init-param>
+        <init-param>
+            <param-name>forceEncoding</param-name>
+            <param-value>true</param-value>
+        </init-param>
+    </filter>
+    <filter-mapping>
+        <filter-name>encoding</filter-name>
+        <url-pattern>/*</url-pattern>
+    </filter-mapping>
+    <filter>
+        <filter-name>mylogin</filter-name>
+        <filter-class>com.zeng.Filter.loginFilter</filter-class>
+    </filter>
+    <filter-mapping>
+        <filter-name>mylogin</filter-name>
+        <url-pattern>*.ext</url-pattern>
+    </filter-mapping>
+    <!--此处声明一个servlet  同时制定类全名-->
+    <listener>
+        <listener-class>org.springframework.web.context.ContextLoaderListener</listener-class>
+    </listener>
+    <servlet>
+        <servlet-name>HelloWorldServlet</servlet-name>
+        <servlet-class>com.zeng.hello</servlet-class>
+    </servlet>
+    <!--此处声明一个servlet- mapping  可以理解为servlet的地图-->
+    <servlet>
+        <servlet-name>dispatcher</servlet-name>
+        <servlet-class>org.springframework.web.servlet.DispatcherServlet</servlet-class>
+        <load-on-startup>2</load-on-startup>
+    </servlet>
+    <servlet-mapping>
+        <!--此处设定的是当前文档中配置的servlet节点-->
+        <servlet-name>HelloWorldServlet</servlet-name>
+        <!--此处设定的是URL访问的名称 注意前面一定要加上"/" 若本机测试的环境则本节点的访问地址是 http://loaclhost:端口号/你的引用名称/hello
+        URL访问名称可自定义，值得注意的是一定要与其他servlet-mapping做区分，并且检查是否会与其他过滤器冲突-->
+        <url-pattern>/helloaa</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>dispatcher</servlet-name>
+        <url-pattern>*.htm</url-pattern>
+    </servlet-mapping>
+    <session-config>
+        <session-timeout>
+            30
+        </session-timeout>
+    </session-config>
+    <welcome-file-list>
+        <welcome-file>login/login.jsp</welcome-file>
+    </welcome-file-list>
+</web-app>

@@ -1,0 +1,59 @@
+<component name="libraryTable">
+  <library name="tomcat-dbcp">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/Jar/tomcat-dbcp.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Jar/tomcat-api.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Jar/websocket-api.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Jar/sybase_jconn-5.5.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Jar/tomcat-util.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Jar/slf4j-log4j12-1.7.7.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Jar/tomcat7-websocket.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Jar/tomcat-jdbc.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Jar/slf4j-api-1.7.7.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Jar/tomcat-coyote.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Jar/xmlbeans-2.6.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Jar/servlet-api.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Jar/sapjco3-3.0.9.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Jar/poi-scratchpad-3.12-20150511.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Jar/poi-ooxml-schemas-3.12-20150511.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Jar/poi-ooxml-3.12-20150511.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Jar/poi-excelant-3.12-20150511.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Jar/poi-examples-3.12-20150511.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Jar/poi-3.12-20150511.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Jar/ojdbc14-10.2.0.2.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Jar/mysql-connector-java-3.1.12.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Jar/mssqlserver-3.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Jar/log4j-1.2.17.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Jar/jsp-api.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Jar/jasper-el.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Jar/jasper.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Jar/japp-sap-1.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Jar/infomixjdbc-0.x.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Jar/guava-18.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Jar/el-api.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Jar/ecj-P20140317-1600.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Jar/ecj-4.3.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Jar/db2jcc-0.x.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Jar/cos.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Jar/commons-logging-1.1.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Jar/commons-lang3-3.3.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Jar/commons-beanutils-core-1.8.3.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Jar/catalina-tribes.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Jar/catalina-ha.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Jar/catalina-ant.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Jar/catalina.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Jar/annotations-api.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$PROJECT_DIR$/Jar/spring-context-4.3.0.RC2-javadoc.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Jar/jackson-dataformat-xml-2.5.5-javadoc.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Jar/jackson-databind-2.5.5-javadoc.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Jar/jackson-core-2.5.5-javadoc.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Jar/jackson-annotations-2.5.5-javadoc.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Jar/commons-beanutils-1.9.2-javadoc.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Jar/javaee-doc-api.jar!/docs/api" />
+      <root url="jar://$PROJECT_DIR$/Jar/javax.persistence-2.1.0-doc.zip!/docs" />
+    </JAVADOC>
+    <SOURCES />
+  </library>
+</component>
