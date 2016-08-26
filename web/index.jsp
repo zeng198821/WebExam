@@ -38,8 +38,6 @@ language="java" contentType="text/html"
                     $("#loginresult").text(result);
                 }
             }
-            
-            
         </script>
     </body>
 </html>
